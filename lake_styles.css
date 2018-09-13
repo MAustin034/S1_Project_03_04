@@ -1,0 +1,167 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+/* The font face elements for the cursive and dobkin fonts */
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.ttf') format('truetype'),
+        url('DobkinPlain.woff') format('woff');
+}
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.ttf') format('truetype'),
+        url('cac_champagne.woff') format('woff');
+}
+
+header {
+    padding-bottom: 15px;
+}
+
+body{
+    background-color: peachpuff;
+}
+
+section#rightcol {
+    background-color: coral;
+    padding-bottom: 10.5em;
+}
+section#leftcol {
+    border: 3px solid black;
+}
+
+section#leftcol>h1 {
+    font-family: 'Chamagne';
+    font-size: 3.7em;
+    padding-left: 5px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(119, 97, 77);
+}
+
+section#leftcol>p {
+    padding-left: 10px;
+    text-indent: 0.8em;
+    color: rgb(119, 97, 77);
+}
+
+aside:first-of-type {
+    background-color: coral;
+    line-height: 1.5em;
+    color: rgb(190, 0, 0);  
+}
+
+aside:last-of-type {
+    background-color: rgba(52, 140, 255, 0.658);
+    padding-left: 5px;
+    color: rgb(0, 101, 196);
+}
+
+aside:last-of-type h2 {
+    font-weight: normal;
+    font-size: 1.1em;
+    color: rgb(0, 101, 196);
+}
+
+aside:last-of-type p {
+    padding-left: 10px;
+    font-size: 0.9em;
+}
+
+aside h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+section#rightcol h2 {
+    text-indent: 0.9em;
+    font-family: 'Dobkin';
+    font-size: 2em;
+    color: rgb(190, 0, 0);
+}
+
+header>nav a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header>nav a:link,
+header>nav a:visited {
+    background-color: rgba(52, 140, 255, 0.658);
+}
+
+header>nav a:hover,
+header>nav a:active {
+    background-color: rgb(0, 132, 255);
+}
+section#rightcol{
+    border: 3px solid black;
+}
+section#rightcol nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+section#rightcol nav ul li {
+    text-align: left;
+}
+
+section#rightcol nav ul a {
+    text-decoration: none;
+}
+
+section#rightcol nav ul a:link,
+section#rightcol nav ul a:visited {
+    color: rgb(255, 17, 0);
+}
+
+section#rightcol nav ul a:hover,
+section#rightcol nav ul a:active {
+    color: rgb(190, 0, 0);
+}
+
+blockquote {
+    padding-top: 20px;
+    color: rgb(190, 0, 0);
+    quotes: "\201C\201D";
+    font-size: 0.95em;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 1.8em;
+}
+
+footer{
+    background-color: rgba(0, 132, 255, 0.452);
+    text-align: center;
+    color: rgb(0, 101, 196);
+}
+img{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
